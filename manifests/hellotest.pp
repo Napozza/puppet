@@ -1,4 +1,4 @@
 file { '/tmp/hellotesteroni.txt':
-	ensure  => file
+	ensure  => present
 	content => "This means that the cron job was successful. \n"
 }
